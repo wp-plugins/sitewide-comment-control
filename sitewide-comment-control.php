@@ -3,7 +3,7 @@
 Plugin Name: Sitewide Comment Control
 Plugin URI: http://tech.ipstenu.org/my-plugins/sitewide-comment-control/
 Description: Block specific users from commenting network wide by user ID or email.
-Version: 1.0
+Version: 1.1
 Author: Mika Epstein (Ipstenu)
 Author URI: http://ipstenu.org/
 Network: true
@@ -130,9 +130,9 @@ function ippy_scc_plugin_help() {
 		'<p>' . __( 'A sample email of spammer@example.com is included in the plugin for you to play with.', 'ippy_scc' ) . '</p>' .
 		'<p>' . __( 'Limited free support can be found in the WordPress forums.','sfc').'</p>'.
 		'<ul>'.
-			'<li><a href="http://wordpress.org/tags/sitewide-comment-control?forum_id=10#postform">'. __( 'Support Forums','sfc').'</li>'.
-			'<li><a href="http://tech.ipstenu.org/my-plugins/sitewide-comment-control/">'. __( 'Plugin Site','sfc').'</li>'.
-			'<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5227973">'. __( 'Donate','sfc').'</li>'.
+			'<li><a href="http://wordpress.org/tags/sitewide-comment-control?forum_id=10#postform">'. __( 'Support Forums','sfc').'</a></li>'.
+			'<li><a href="http://tech.ipstenu.org/my-plugins/sitewide-comment-control/">'. __( 'Plugin Site','sfc').'</a></li>'.
+			'<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5227973">'. __( 'Donate','sfc').'</a></li>'.
 		'</ul>'
 	));
 

@@ -3,7 +3,7 @@ Contributors: Ipstenu
 Tags: comment, ban, moderate, spam, multisite, wpmu
 Requires at least: 3.3
 Tested up to: 3.4
-Stable tag: 1.0
+Stable tag: 1.1
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5227973
 
 Manage the ability of unregistered users to comment sitewide, across the entire network.
@@ -25,6 +25,10 @@ A sample email of spammer@example.com is included in the plugin for you to play 
 * 21 March, 2012 by Ipstenu
 * First completed version.
 
+= 1.1 =
+* 23 March, 2012 by Ipstenu
+* Minor issue with URLs. They need a closing `</a>` you know.
+
 == Installation ==
 
 No special instructions needed. This plugin is only network activatable.
@@ -36,6 +40,9 @@ No special instructions needed. This plugin is only network activatable.
 == Credits ==
 
 Thanks to Jan for the idea of moderating and spamming. Thanks to Joey and Helen for reminding me about `get_permalink()` and it's silly inconsistancies.
+
+== Issues ==
+* Setting a comment to 'moderate' doesn't always show the 'your comment is in moderation...' to the user, which can be confusing.
 
 == Frequently Asked Questions ==
 
