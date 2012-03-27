@@ -58,6 +58,10 @@ If you set comments to be spammed or moderated, they will show up in the appropr
 
 No, it only blocks by email address.
 
+= Why don't you block IPs? =
+
+I don't find it useful, and I think WP's the wrong tool. If you're blocking IPs, given how dynamic they are, it won't do you any good in the long run. 
+
 = Will this block partial emails? =
 
 Yes. If you put 'example.com' in your list, it will block 'anything@example.com'. **Be very careful when you do this!** If you put in just the letter 'a' for example, you will block all email addresses with that letter. Please only use full domains ('example.com', not just 'example').
