@@ -3,7 +3,7 @@ Contributors: Ipstenu
 Tags: comment, ban, moderate, spam, multisite, wpmu
 Requires at least: 3.3
 Tested up to: 3.4
-Stable tag: 1.1
+Stable tag: 1.2
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5227973
 
 Manage the ability of unregistered users to comment sitewide, across the entire network.
@@ -21,13 +21,17 @@ A sample email of spammer@example.com is included in the plugin for you to play 
 * [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5227973)
 
 ==Changelog==
-=  1.0 =
-* 21 March, 2012 by Ipstenu
-* First completed version.
+= 1.2 =
+* 29 March, 2012 by Ipstenu
+* Formatting change to the help screen. It was showing up on other pages that didn't specify their own b/c I can't spell.
 
 = 1.1 =
 * 23 March, 2012 by Ipstenu
 * Minor issue with URLs. They need a closing `</a>` you know.
+
+=  1.0 =
+* 21 March, 2012 by Ipstenu
+* First completed version.
 
 == Installation ==
 
@@ -57,6 +61,10 @@ If you set comments to be spammed or moderated, they will show up in the appropr
 = Will this block user names? =
 
 No, it only blocks by email address.
+
+= Why don't you block IPs? =
+
+I don't find it useful, and I think WP's the wrong tool. If you're blocking IPs, given how dynamic they are, it won't do you any good in the long run. 
 
 = Will this block partial emails? =
 
