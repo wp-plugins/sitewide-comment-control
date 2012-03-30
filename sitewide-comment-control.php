@@ -3,7 +3,7 @@
 Plugin Name: Sitewide Comment Control
 Plugin URI: http://tech.ipstenu.org/my-plugins/sitewide-comment-control/
 Description: Block specific users from commenting network wide by user ID or email.
-Version: 1.1
+Version: 1.3
 Author: Mika Epstein (Ipstenu)
 Author URI: http://ipstenu.org/
 Network: true
@@ -117,7 +117,7 @@ function ippy_scc_admin_add_page() {
 function ippy_scc_plugin_help() {
 	global $ippy_scc_options_page;
 	$screen = get_current_screen();
-	if ($screen->id == 'ippy_scc')
+	if ($screen->id != 'settings_page_ippy_scc-network')
 		return;
 		
 	$screen->add_help_tab( array(
