@@ -17,10 +17,15 @@ When a user posts a comment and they're on the list, they are redirected to the 
 A sample email of spammer@example.com is included in the plugin for you to play with.
 
 * [Support](http://wordpress.org/tags/sitewide-comment-control?forum_id=10#postform)
-* [Plugin Site](http://tech.ipstenu.org/my-plugins/sitewide-comment-control/)
+* [Plugin Site](http://halfelf.org/plugins/sitewide-comment-control/)
 * [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5227973)
 
 ==Changelog==
+
+= 1.3 = 
+* 17 April, 2012 by Ipstenu
+* Readme cleanup, fixing URLs etc.
+
 = 1.2 =
 * 29 March, 2012 by Ipstenu
 * Formatting change to the help screen. It was showing up on other pages that didn't specify their own b/c I can't spell.
