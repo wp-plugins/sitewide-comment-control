@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Sitewide Comment Control
-Plugin URI: http://tech.ipstenu.org/my-plugins/sitewide-comment-control/
+Plugin URI: http://halfelf.org/plugins/sitewide-comment-control/
 Description: Block specific users from commenting network wide by user ID or email.
 Version: 1.3
 Author: Mika Epstein (Ipstenu)
