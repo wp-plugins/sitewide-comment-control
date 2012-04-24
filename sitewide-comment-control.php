@@ -206,4 +206,3 @@ global $wpdb;
 
 </div> <?php
 }
-?>
