@@ -53,6 +53,12 @@ Thanks to Jan for the idea of moderating and spamming. Thanks to Joey and Helen 
 == Issues ==
 * Setting a comment to 'moderate' doesn't always show the 'your comment is in moderation...' to the user, which can be confusing.
 
+== Upgrade Notice ==
+
+= 1.5 =
+Please back up your blacklist BEFORE upgrading, as the upgrade will wipe it out. This install fixes that problem. Very, very, sorry.
+
+
 == Frequently Asked Questions ==
 
 = If I change the blacklist using this plugin, will it change the Comment Blacklist? =
