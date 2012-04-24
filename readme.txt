@@ -3,7 +3,7 @@ Contributors: Ipstenu
 Tags: comment, ban, moderate, spam, multisite, wpmu
 Requires at least: 3.3
 Tested up to: 3.4
-Stable tag: 1.3
+Stable tag: 1.5
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5227973
 
 Manage the ability of unregistered users to comment sitewide, across the entire network.

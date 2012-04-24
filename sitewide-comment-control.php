@@ -95,8 +95,8 @@ return $data;
 
 // Create the options for the message and spam assassin and set some defaults.
 function ippy_scc_activate() {
-		update_site_option('ippy_scc_keys','spammer@example.com');
-		update_site_option('ippy_scc_type','blackhole');
+		add_site_option('ippy_scc_keys','spammer@example.com');
+		add_site_option('ippy_scc_type','blackhole');
 		}
 
 // Options Pages
@@ -206,4 +206,3 @@ global $wpdb;
 
 </div> <?php
 }
-?>
