@@ -22,6 +22,10 @@ A sample email of spammer@example.com is included in the plugin for you to play 
 
 ==Changelog==
 
+= 1.5 =
+* 24 April, 2012 by Ipstenu
+* Uninstall was broken, and I am so, so, so, sorry.
+
 = 1.3 = 
 * 17 April, 2012 by Ipstenu
 * Readme cleanup, fixing URLs etc.
