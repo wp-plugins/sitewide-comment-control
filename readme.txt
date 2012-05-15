@@ -4,7 +4,7 @@ Tags: comment, ban, moderate, spam, multisite, wpmu
 Requires at least: 3.3
 Tested up to: 3.4
 Stable tag: 1.5
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5227973
+Donate link: https://www.wepay.com/donations/halfelf-wp
 
 Manage the ability of unregistered users to comment sitewide, across the entire network.
 
@@ -18,7 +18,7 @@ A sample email of spammer@example.com is included in the plugin for you to play 
 
 * [Support](http://wordpress.org/tags/sitewide-comment-control?forum_id=10#postform)
 * [Plugin Site](http://halfelf.org/plugins/sitewide-comment-control/)
-* [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5227973)
+* [Donate](https://www.wepay.com/donations/halfelf-wp)
 
 ==Changelog==
 

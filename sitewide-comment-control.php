@@ -3,7 +3,7 @@
 Plugin Name: Sitewide Comment Control
 Plugin URI: http://halfelf.org/plugins/sitewide-comment-control/
 Description: Block specific users from commenting network wide by user ID or email.
-Version: 1.5
+Version: 1.6
 Author: Mika Epstein (Ipstenu)
 Author URI: http://ipstenu.org/
 Network: true
@@ -126,7 +126,7 @@ function ippy_scc_plugin_help() {
 		'<ul>'.
 			'<li><a href="http://wordpress.org/tags/sitewide-comment-control?forum_id=10#postform">'. __( 'Support Forums','sfc').'</a></li>'.
 			'<li><a href="http://tech.ipstenu.org/my-plugins/sitewide-comment-control/">'. __( 'Plugin Site','sfc').'</a></li>'.
-			'<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5227973">'. __( 'Donate','sfc').'</a></li>'.
+			'<li><a href="https://www.wepay.com/donations/halfelf-wp">'. __( 'Donate','sfc').'</a></li>'.
 		'</ul>'
 	));
 
@@ -140,7 +140,7 @@ register_activation_hook( __FILE__, 'ippy_scc_activate' );
 add_filter('plugin_row_meta', 'ippy_scc_donate_link', 10, 2);
 function ippy_scc_donate_link($links, $file) {
         if ($file == plugin_basename(__FILE__)) {
-                $donate_link = '<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ipstenu%40ipstenu%2eorg">Donate</a>';
+                $donate_link = '<a href="https://www.wepay.com/donations/halfelf-wp">Donate</a>';
                 $links[] = $donate_link;
         }
         return $links;
