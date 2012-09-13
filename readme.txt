@@ -2,7 +2,7 @@
 Contributors: Ipstenu
 Tags: comment, ban, moderate, spam, multisite, wpmu
 Requires at least: 3.3
-Tested up to: 3.4
+Tested up to: 3.5
 Stable tag: 1.5
 Donate link: https://www.wepay.com/donations/halfelf-wp
 
@@ -62,7 +62,6 @@ Thanks to Jan for the idea of moderating and spamming. Thanks to Joey and Helen 
 = 1.5 =
 Please back up your blacklist BEFORE upgrading, as the upgrade will wipe it out. This install fixes that problem. Very, very, sorry.
 
-
 == Frequently Asked Questions ==
 
 = If I change the blacklist using this plugin, will it change the Comment Blacklist? =
@@ -95,7 +94,7 @@ Yes, it does.
 
 = Does this work on Single Site installs? =
 
-No, and what's the point?
+No, and what's the point? You already have a blacklist for that.
 
 = Does this work on BuddyPress? =
 
