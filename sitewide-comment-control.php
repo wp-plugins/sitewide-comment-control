@@ -3,7 +3,7 @@
 Plugin Name: Sitewide Comment Control
 Plugin URI: http://halfelf.org/plugins/sitewide-comment-control/
 Description: Block specific users from commenting network wide by user ID or email.
-Version: 1.6
+Version: 2.0
 Author: Mika Epstein (Ipstenu)
 Author URI: http://ipstenu.org/
 Network: true
@@ -163,16 +163,13 @@ global $wpdb;
         // Update the Blacklist
             if ($ippy_scc_keys = $_POST['ippy_scc_keys'])
             {
-                    $ippy_scc_array = explode("\n", $ippy_scc_keys);
-                    sort ($ippy_scc_array);
-                    $ippy_scc_string = implode("\n", $ippy_scc_array);
-                    update_site_option('ippy_scc_keys', $ippy_scc_string);
+            	update_site_option('ippy_scc_keys', $ippy_scc_keys);
             }
 
         // Update the Key (spam or blackhole)
             if ( isset( $_POST['ippy_scc_type'] ) )
             {
-                   update_site_option( 'ippy_scc_type', $_POST['ippy_scc_type'] );
+                update_site_option( 'ippy_scc_type', $_POST['ippy_scc_type'] );
             }
 ?>
         <div id="message" class="updated fade"><p><strong><?php _e('Options Updated!', 'ippy_scc'); ?></strong></p></div>
