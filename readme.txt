@@ -3,7 +3,7 @@ Contributors: Ipstenu
 Tags: comment, ban, moderate, spam, multisite, wpmu
 Requires at least: 3.3
 Tested up to: 3.7
-Stable tag: 1.5
+Stable tag: 2.0
 Donate link: https://www.wepay.com/donations/halfelf-wp
 
 Manage the ability of unregistered users to comment sitewide, across the entire network.
@@ -21,6 +21,11 @@ A sample email of spammer@example.com is included in the plugin for you to play 
 * [Donate](https://www.wepay.com/donations/halfelf-wp)
 
 ==Changelog==
+
+= 2.0 =
+* 30 Octover, 2013 by Ipstenu
+* Works with 3.7
+* Removing sort to stop sorting
 
 = 1.5 =
 * 24 April, 2012 by Ipstenu
