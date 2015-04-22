@@ -2,7 +2,7 @@
 Contributors: Ipstenu
 Tags: comment, ban, moderate, spam, multisite, wpmu
 Requires at least: 3.3
-Tested up to: 4.0
+Tested up to: 4.2
 Stable tag: 2.0
 Donate link: https://store.halfelf.org/donate/
 
